@@ -6,7 +6,7 @@ jobs:
     steps:
       - name: SQL advise
         run: |
-          API="https://e33c-171-76-81-245.ngrok-free.app/hook/sql-review/c99b34db-51b8-4ffc-92d6-146c982f49a7-1711462030"
+          API="https://github.com/Mannippu/bytebase/hook/github/c99b34db-51b8-4ffc-92d6-146c982f49a7-1711462030/hook/sql-review/c99b34db-51b8-4ffc-92d6-146c982f49a7-1711645124"
           TOKEN="${{ secrets.SQL_REVIEW_API_SECRET }}"
           echo "Start request $API"
 
